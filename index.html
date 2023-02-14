@@ -16,9 +16,11 @@
 
             <nav class="row h-100">
 
-                <a href="#" class="col h-100 text-decoration-none d-flex align-items-center text-white fw-bold h3 ms_border">
-                    START BOOTSTRAP
-                </a>
+                <div class=" d-flex align-items-center fw-bold h3 ms_border col h-100">
+                    <a href="#" class="text-decoration-none text-white">
+                        START BOOTSTRAP
+                    </a>
+                </div>
 
                 <div class="col h-100 d-flex justify-content-end align-items-center">
                     <div class="navbar navbar-dark d-none d-sm-block d-md-none">
@@ -111,23 +113,26 @@
         </section>
 
 
-        <section id="contact-me" class="container text-center px-5 py-4">
-            <h2 class="fw-bold">CONTACT ME</h2>
+        <section id="contact-me" class="container px-5 py-4">
+            <h2 class="fw-bold text-center">CONTACT ME</h2>
 
             <hr>
 
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control bg-white" id="floatingInputDisabled" placeholder="name@example.com" disabled>
-                <label for="floatingInputDisabled">Email address</label>
-              </div>
-              <div class="form-floating mb-3">
-                <textarea class="form-control bg-white" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
-                <label for="floatingTextareaDisabled">Comments</label>
-              </div>
-              <div class="form-floating mb-3">
-                <textarea class="form-control bg-white" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
-                <label for="floatingTextarea2Disabled">Comments</label>
-              </div>
+            <form>
+                <div class="mb-3">
+                  <input type="text" placeholder="Name" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 ps-0 pb-3 pt-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <input type="email" placeholder="Email Address" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 ps-0 pb-3 pt-0" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <input type="text" placeholder="Phone Number" class="form-control border-top-0 border-start-0 border-end-0 rounded-0 ps-0 pb-3 pt-0" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0 ps-0 pb-3 pt-0" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary ms_bg-greenwater border-0 pt-1">Send</button>
+              </form>
         </section>
     </main>
 
@@ -135,8 +140,9 @@
 
     <footer class="text-center">
         <section id="footer-top" class="container-fluid ms_bg-bluegrey text-center text-white px-2 py-4">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
+
                     <div class="col-sm-12 col-md-4 py-4">
                         <h5>LOCATION</h5>
                         <h6 class="m-0">2215 John Daniel Drive Clark, MO 54243</h6>
@@ -146,11 +152,8 @@
                         <h5>AROUND THE WEB</h5>
                         <div>
                             <a class="btn btn-outline-light btn-floating m-1 rounded-circle pt-2" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
                             <a class="btn btn-outline-light btn-floating m-1 rounded-circle pt-2" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
                             <a class="btn btn-outline-light btn-floating m-1 rounded-circle pt-2" href="#!" role="button"><i class="fab fa-google"></i></a>
-
                             <a class="btn btn-outline-light btn-floating m-1 rounded-circle pt-2" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
@@ -163,8 +166,8 @@
             </div>
         </section>
 
-        <section id="footer-bottom" class="ms_bg-black py-5">
-            <span class="text-white">Copyright Your Website 2023</span>
+        <section id="footer-bottom" class="ms_bg-darkblue py-5">
+            <span class="text-white">Copyright © Your Website 2023</span>
         </section>
 
     </footer>
