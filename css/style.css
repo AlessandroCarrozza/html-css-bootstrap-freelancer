@@ -25,8 +25,17 @@
 }
 
 .ms_bg-black{
-    background-color: black;
+    background-color: darkblue;
+}
+
+.ms_col-greenwater{
+    color: #1abc9c;
 }
 
 
 /* codice */
+
+#footer-top a{
+    width: 45px;
+    height: 45px;
+}
