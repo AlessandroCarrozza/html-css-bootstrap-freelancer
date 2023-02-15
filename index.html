@@ -12,9 +12,10 @@
 <body>
     
     <!-- inizio header -->
-    <header class="container-fluid ms_bg-bluegrey">
+    <header class="container-fluid ms_bg-bluegrey position-fixed z-2">
         <div class="container h-100 mx-auto ms_border">
 
+            <!-- inizio nav -->
             <nav class="row h-100">
 
                 <div class=" d-flex align-items-center fw-bold h3 ms_border col h-100">
@@ -55,6 +56,7 @@
                 </div>
                 
             </nav>
+            <!-- fine nav -->
 
         </div>
     </header>
@@ -62,9 +64,10 @@
 
 
     <!-- inizio main -->
-    <main>
-        <section id="jumbotron" class="container-fluid py-4 ms_bg-greenwater text-white">
-            <div class="container text-center">
+    <main class="pt-5">
+        <!-- inizio sezioni di main -->
+        <section id="jumbotron" class="container-fluid py-5 ms_bg-greenwater text-white">
+            <div class="container text-center pt-5">
                 <img src="img/avatar.svg" alt="Boy">
                 <h1 class="fw-bold pt-3">START BOOTSTRAP</h1>
 
@@ -78,6 +81,7 @@
                 <div class="fw-bold">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
             </div>
         </section>
+
 
         <section id="portfolio" class="container text-center py-5">
             <h2 class="fw-bold">PORTFOLIO</h2>
@@ -190,13 +194,16 @@
                 <button type="submit" class="btn btn-primary ms_bg-greenwater border-0 pt-1">Send</button>
               </form>
         </section>
+        <!-- fine sezioni di main -->
     </main>
     <!-- fine main -->
 
 
     <!-- inizio footer -->
     <footer class="text-center">
-        <section id="footer-top" class="container-fluid ms_bg-bluegrey text-center text-white px-2 py-4">
+
+        <!-- inizio footer top -->
+        <section id="footer-top" class="container-fluid ms_bg-bluegrey text-center text-white px-2 py-4">        
             <div class="container">
                 <div class="row">
 
@@ -227,13 +234,17 @@
                         <h5>ABOUT FREELANCER</h5>
                         <h6>Freelance is a free to use, open source Bootstrap theme created by <span class="ms_col-greenwater">Start Bootstrap</span> </h6>
                     </div>
+
                 </div>
             </div>
         </section>
+        <!-- fine footer top -->
 
+        <!-- inizio footer bottom -->
         <section id="footer-bottom" class="ms_bg-darkblue py-5">
             <span class="text-white">Copyright © Your Website 2023</span>
         </section>
+        <!-- fine footer bottom  -->
 
     </footer>
     <!-- fine footer -->
